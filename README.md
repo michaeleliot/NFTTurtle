@@ -1,7 +1,7 @@
 Simple Project Showcasing How to Do a PFP Project
 
 Overview
-This is a project to showcase my sister's art, and learn basic nft coding. It uses [hardhat](https://hardhat.org/) for the environment, ipfs via [Pinata](https://www.pinata.cloud/) for hosting, and the github repo [generative-art-opensource](https://github.com/HashLips/generative-art-opensource) to create the generative images.
+This is a project to showcase my sister's art, and learn basic nft coding. It uses [hardhat](https://hardhat.org/) for the environment, ipfs via [Pinata](https://www.pinata.cloud/) for hosting, and the github repo [generative-art-opensource](https://github.com/HashLips/generative-art-opensource) to create the generative images. You can see this project deployed to Rickeby [here](https://rinkeby.etherscan.io/address/0x15e4A63356e46999421608D061d5aB92abFFb5f3).
 
 Creating Generative Art (Optional)
 If you wish to create simple generative art, you can generate the png's via the [generative-art-opensource](https://github.com/HashLips/generative-art-opensource) repo. Follow the instructions there, with a few key differences. First, instead of having the json and images in one folder, I split them into two with one containing the json and the other containing the png files. This is to make the hosting process easier. Two, I updated the code to include a script to update the json bas_url for the next step.
